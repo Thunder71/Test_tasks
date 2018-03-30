@@ -11,5 +11,7 @@ public class MainActivity {
         e3.solve();
         Exercise_4 e4 = new Exercise_4();
         e4.solve();
+        Exercise_5 e5 = new Exercise_5();
+        e5.solve();
     }
 }
