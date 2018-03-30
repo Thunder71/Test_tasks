@@ -9,22 +9,26 @@ public class Exercise_3 {
         Scanner in = new Scanner(System.in);
         System.out.println("\nЗадание 3");
         System.out.println("\nВведите координаты первого отрезка:");
-        System.out.println("Введите число ax1");
+        System.out.println("\nВведите координату первой точки:");
+        System.out.println("Введите координату ax1");
         double ax1 = in.nextInt();
-        System.out.println("Введите число ay1");
+        System.out.println("Введите координату ay1");
         double ay1 = in.nextInt();
-        System.out.println("Введите число ax2");
+        System.out.println("\nВведите координату второй точки:");
+        System.out.println("Введите координату ax2");
         double ax2 = in.nextInt();
-        System.out.println("Введите число ay2");
+        System.out.println("Введите координату ay2");
         double ay2 = in.nextInt();
         System.out.println("\nВведите координаты второго отрезка:");
-        System.out.println("Введите число bx1");
+        System.out.println("\nВведите координату третьей точки:");
+        System.out.println("Введите координату bx1");
         double bx1 = in.nextInt();
-        System.out.println("Введите число by1");
+        System.out.println("Введите координату by1");
         double by1 = in.nextInt();
-        System.out.println("Введите число bx2");
+        System.out.println("\nВведите координату четвертой точки:");
+        System.out.println("Введите координату bx2");
         double bx2 = in.nextInt();
-        System.out.println("Введите число by2");
+        System.out.println("Введите координату by2");
         double by2 = in.nextInt();
 
         Point p1 = new Point(ax1, ay1);
@@ -33,6 +37,7 @@ public class Exercise_3 {
         Point p4 = new Point(bx2, by2);
 
         boolean q = checkIntersection(p1,p2,p3,p4);
+        System.out.println("\nРезультат:");
         System.out.println(q);
 
     }

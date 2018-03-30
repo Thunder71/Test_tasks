@@ -9,5 +9,7 @@ public class MainActivity {
         e2.solve();
         Exercise_3 e3 = new Exercise_3();
         e3.solve();
+        Exercise_4 e4 = new Exercise_4();
+        e4.solve();
     }
 }
