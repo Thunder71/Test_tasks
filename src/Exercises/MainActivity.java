@@ -3,12 +3,11 @@ package Exercises;
 public class MainActivity {
 
     public static void main(String[] args) {
-
-        String str;
-        str = "qwerty123";
-    ABC abc = new ABC(1,5);
-        abc.sum();
-
-        System.out.println(str);
+        Exercise_1 e1 = new Exercise_1();
+        e1.solve();
+        Exercise_2 e2 = new Exercise_2();
+        e2.solve();
+        Exercise_3 e3 = new Exercise_3();
+        e3.solve();
     }
 }
